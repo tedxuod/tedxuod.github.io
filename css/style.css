@@ -38,6 +38,18 @@ p {
     line-height: 1.5;
 }
 
+#terms h3 {
+    color: #000;
+}
+
+#terms p {
+    color: #000;
+}
+
+#terms a {
+    color: #DA291C;
+}
+
 @media(min-width:550px) {
     p {
         margin: 0 0 35px;
@@ -487,3 +499,4 @@ body {
         background-color: transparent;
     }
 }
+
