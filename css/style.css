@@ -94,8 +94,8 @@ a:focus {
 
 .navbar-custom {
     margin-bottom: 0;
-    border-bottom: 1px solid #DA291C
-    text-transform: uppercase;
+    background-color: rgba(218, 41, 28, 0.30);
+    /*text-transform: uppercase;*/
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: #000;
 }
@@ -146,8 +146,12 @@ a:focus {
 
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus,
-.navbar-custom .nav li a.active {
+.navbar-custom .nav li a.active{
     outline: 0;
+    background-color: rgba(218, 41, 28, 0.30);
+}
+
+.navbar-custom .nav li.active a {
     background-color: rgba(218, 41, 28, 0.30);
 }
 
