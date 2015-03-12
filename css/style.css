@@ -144,16 +144,30 @@ a:focus {
     transition: background .3s ease-in-out;
 }
 
-.navbar-custom .nav li a:hover,
-.navbar-custom .nav li a:focus,
-.navbar-custom .nav li a.active{
+.navbar-custom .nav li a:hover {
     outline: 0;
-    background-color: rgba(218, 41, 28, 0.30);
+    color: rgba(255,255,255,.8);
+    background-color: transparent;
+}
+
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+    outline: 0;
+    background-color: transparent;
+}
+
+.navbar-custom .nav li.active {
+    outline: 0;
 }
 
 .navbar-custom .nav li.active a {
     background-color: rgba(218, 41, 28, 0.30);
 }
+
+.navbar-custom .nav li.active a:hover {
+    color: #fff;
+}
+
 
 @media(min-width:767px) {
     .navbar {
