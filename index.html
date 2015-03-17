@@ -22,11 +22,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
-    <link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="img/favicons/favicon-194x194.png" sizes="194x194">
-    <link rel="icon" type="image/png" href="img/favicons/favicon-96x96.png" sizes="96x96">
     <link rel="icon" type="image/png" href="img/favicons/android-chrome-192x192.png" sizes="192x192">
-    <link rel="icon" type="image/png" href="img/favicons/favicon-16x16.png" sizes="16x16">
     <link rel="manifest" href="img/favicons/manifest.json">
     <meta name="msapplication-TileColor" content="#000000">
     <meta name="msapplication-TileImage" content="img/favicons/mstile-144x144.png">
@@ -174,11 +170,14 @@
 
     <!-- About Speakers -->
     <section id="speakers" class="container content-section text-center">
+        <div id="sue"></div>
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Confirmed Speakers</h2>
                 <div class="row">
-                <img src="img/Sue.png" alt="Image" class='img-responsive pull-right navbar-vertical-align img-rounded' style="max-width:100%;height:auto;">
+                <a class='speaker_click' onclick="$('#speaker1').toggle();">
+                    <img src="img/Sue.png" alt="Image" class='img-responsive pull-right navbar-vertical-align img-rounded' style="max-width:100%;height:auto;">
+                </a>
                 <div class="col-md-8">
                     <p></br></br><ins>Professor Sue Black</ins>,
                         Director of the Centre for Anatomy and Human Identification at University of Dundee.</p>
@@ -186,8 +185,19 @@
                 <div class="col-md-4"></div>
                 </div>
         </br></br>
+        <div id="speaker1" style="display: none;">
+          <div class="panel-body">
+            <hr class="featurette-divider">
+            <p>More information to be added soon.</p>
+              <hr class="featurette-divider">
+          </div>
+        </div>
+        <div id="matthias"></div>
+        </br></br>
         <div class="row">
-            <img src="img/Matthias.png" alt="Image" class='img-responsive pull-left navbar-vertical-align img-rounded' style="max-width:100%;height:auto;">
+            <a class='speaker_click' onclick="$('#speaker2').toggle();">
+                <img src="img/Matthias.png" alt="Image" class='img-responsive pull-left navbar-vertical-align img-rounded' style="max-width:100%;height:auto;">
+            </a>
             <div class="col-md-4"></div>
             <div class="col-md-8">
                 <p></br></br><ins>Professor Matthias Klaes</ins>,
@@ -195,24 +205,97 @@
             </div>
         </div>
         </br></br>
+        <div id="speaker2" style="display: none;">
+          <div class="panel-body">
+            <hr class="featurette-divider">
+            <p>More information to be added soon.</p>
+              <hr class="featurette-divider">
+          </div>
+        </div>
+        <div id="tim"></div>
+        </br></br>
         <div class="row">
-            <img src="img/Tim.png" alt="Image" class='img-responsive pull-right navbar-vertical-align img-rounded' style="max-width:100%;height:auto;">
+            <a class='speaker_click' onclick="$('#speaker3').toggle();">
+                <img src="img/Tim.png" alt="Image" class='img-responsive pull-right navbar-vertical-align img-rounded' style="max-width:100%;height:auto;">
+            </a>
             <div class="col-md-8">
-                <p></br></br><ins>Professor Tim Newman</ins>, Chair of Biophysics and SULSA Research Professor of Systems Biology at University of Dundee.</p>
+                <p></br></br><ins>Professor Tim Newman</ins>, Professor of Biophysics and Dean of Engineering, Physics and Mathematics at the University of Dundee.</p>
             </div>
             <div class="col-md-4"></div>
         </div>
         </br></br>
+        <div id="speaker3" style="display: none;">
+          <div class="panel-body">
+            <hr class="featurette-divider">
+            <h2>Biography</h2>
+        <p>Tim Newman is Professor of Biophysics and Dean of Engineering, Physics and Mathematics at the University of Dundee, UK.
+            Tim studied theoretical physics at the Universities of Oxford and Manchester, and then pursued research in complex
+            systems as a postdoctoral scholar in Europe and the US. Since 2000 he has applied theoretical physics ideas to the
+            life sciences and, prior to moving to Dundee in 2011, he held academic positions at the University of Virginia and
+            Arizona State University. His research has covered many different biological scales, from ecology to embryo
+            development to cell and molecular biology. His current research is heavily focussed on cancer progression.
+            From 2011-2014 he served as the Editor-in-Chief of the journal Physical Biology. He has served on numerous
+            panels and boards in the US and the UK and continually strives to nurture interdisciplinary research and
+            education at the interface between the physical sciences and the life sciences.</p>
+
+        <h2>How would you like to make a difference at TEDxUniversityOfDundee?</h2>
+        <p>Great ideas, an open mind, working with young people, and no sacred cows.</p>
+              <hr class="featurette-divider">
+          </div>
+        </div>
+        <div id="emanuele"></div>
+        </br></br>
         <div class="row">
-            <img src="img/Emanuele.png" alt="Image" class='img-responsive pull-left navbar-vertical-align img-rounded' style="max-width:100%;height:auto;">
+            <a class='speaker_click' onclick="$('#speaker4').toggle();">
+                <img src="img/Emanuele.png" alt="Image" class='img-responsive pull-left navbar-vertical-align img-rounded' style="max-width:100%;height:auto;">
+            </a>
             <div class="col-md-4"></div>
             <div class="col-md-8">
-                <p></br></br><ins>Professor Emanuele Trucco</ins>, NRP Professor of Computational Vision at University of Dundee.</p>
+                <p></br></br><ins>Professor Emanuele Trucco</ins>, NRP Chair of Computational Vision and VAMPIRE project director.</p>
             </div>
-        </div>  </br></br></br></br>
-                <p><strong>We are in the process of recruiting further speakers. For more information on how to apply, please see below.</strong></p>
         </div>
+        </br></br>
+        <div id="speaker4" style="display: none;">
+          <div class="panel-body">
+            <hr class="featurette-divider">
+              <h2>Biography</h2>
+            <p>Emanuele Trucco, MSc, PhD, FRSA, is the NRP Chair of Computational Vision in the
+                School of Computing, University of Dundee, and an Honorary Clinical Researcher at
+                Ninewells Hospital and Medical School. His 30-year research has covered applications of
+                computer vision to manufacturing, subsea robotics, immersive videoconferencing, and medical
+                image analysis, funded by UK research councils, EU programmes, charities (e.g. the Royal Society,
+                the Leverhulme Trust) and industry (incl. continuous funding from OPTOS plc since 2002). </p>
+                <p>Current medical image analysis research includes vision for robotic hydrocolonoscopy (EU ERC "CODIR"),
+                the analysis of whole-body MR angiographic data (with Toshiba Edinburgh), and the VAMPIRE
+                initiative (Vessel Assessment and Measurement Platform for images of the REtina), an
+                international collaboration of 10 image processing and clinical centres which he co-leads with
+                    Dr Tom MacGillivray of the Clinical Research Imaging Centre, University of Edinburgh. VAMPIRE
+                    has been growing a software suite for efficient, semi-automatic analysis of retinal images
+                    (vasculature quantification, lesions), in use for retinal biomarker studies on, among others,
+                    cardiovascular risk, stroke, cognitive performance, neurodegenerative diseases, dementia, and
+                    genetics. VAMPIRE was the first automatic system ever applied to UK Biobank retinal images. </p>
+            <p>Emanuele has published more than 160 refereed papers and co-authored two textbooks, one of which
+                ("Introductory techniques for 3-D computer vision", with Prof Alessandro Verri of the University of
+                Genova, Italy) has become an international standard (2,516 citations, Google Scholar March 2014).</p>
+
+            <h2>How would you like to make a difference at TEDxUniversityOfDundee?</h2>
+            <p>I firmly believe that research has at least two key dimensions.
+            One is the technical challenge of advancing knowledge; discovering new facts about the world,
+                introducing new technologies, and how all this can be used to benefit society. The other is
+                the human dimension of research: the fact that research is carried out by people, who bring
+                great richness to a group as individuals, with their histories, their experiences and their
+                personalities.  A group of people is so much more than their technical skills, however excellent.
+                I am fascinated by this dimension of research, and strive to make my own research group not only a
+                success in terms of publications, grants and awards, but also a community in which individuals learn
+                to share, laugh and flourish as scientists and as persons.
+            I hope to be able to put across this message as inspiringly as possible!</p>
+              <hr class="featurette-divider">
+          </div>
         </div>
+        </br></br>
+        <p><strong>We are in the process of recruiting further speakers. For more information on how to apply, please see below.</strong></p>
+      </div>
+     </div>
     </section>
 
     <section id="speakers2" class="container content-section text-center">
