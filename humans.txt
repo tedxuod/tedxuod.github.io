@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Fábio Madeira -- Developer -- @biomadeira
+    Thiago Britto-Borges -- Developer -- @tbrittoborges
+
+# THANKS
+
+    TEDx, University of Dundee, Our colleagues, Speakers, Partners, Volunteers
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Github Pages, Jekyll, Bootstrap, jQuery

@@ -1,0 +1,10 @@
+# If you would like to crawl TEDx University of Dundee contact us at tedxuod@dundee.ac.uk.
+
+User-agent: *
+Disallow:
+Allow: /humans.txt
+
+User-agent: Googlebot
+Disallow:
+Allow: /
+Allow: /humans.txt
