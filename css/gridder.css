@@ -1,0 +1,119 @@
+/* MIXINS */
+.gridder.hasSelectedItem .gridder-list {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+    opacity: 0.5;
+}
+
+.gridder.hasSelectedItem .gridder-list.selectedItem {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 100;
+}
+
+.gridder-list {
+    float: none;
+    display: inline-block;
+    width: 150px;
+    vertical-align: top;
+    margin: 0px;
+}
+
+.gridder-list .gridder-thumb {
+    cursor: pointer;
+}
+
+.gridder-list .title {
+    display: block;
+    /*font-weight: bold;*/
+    color: #FFF;
+    /*font-size: 14px;*/
+    justify-content: center;
+    text-align: center;
+}
+
+.gridder-list .description {
+    color: red;
+    min-height: 30px;
+}
+
+.gridder-list .image {
+    background: #242424 url("../images/loading-spin.svg") no-repeat center;
+    height: 273px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .gridder-list {
+        width: 48%;
+    }
+
+    .gridder-list .image {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .gridder-list {
+        width: 48%;
+    }
+
+    .gridder-list .image {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 768px)  {
+    .gridder-show {
+        padding: 15px;
+    }
+}
+
+.gridder-show {
+    padding: 50px;
+    margin-bottom: 20px;
+    background: white;
+    -webkit-box-shadow: inset 0px 0px 20px 5px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: inset 0px 0px 20px 5px rgba(0, 0, 0, 0.16);
+    box-shadow: inset 0px 0px 20px 5px rgba(0, 0, 0, 0.16);
+}
+
+.gridder-navigation {
+    position: absolute;
+    right: 50px;
+    top: 25px;
+    bottom: 25px;
+}
+
+.gridder-navigation a {
+    color: #FFF;
+    display: inline-block;
+    background: #4A4A4A;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 5px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.gridder-navigation a:hover {
+    text-decoration: none;
+    background: #CCC;
+}
+
+@media only screen and (max-width: 768px) and (max-width: 1200px) {
+    .gridder-navigation {
+        position: relative;
+        right: auto;
+        top: auto;
+        margin-bottom: 15px;
+    }
+}
+
+.gridder-expanded-content {
+    color: #000000;
+    padding-top: 10px;
+    font-family: Lora, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+/*font-family: 'Arial', sans-serif; font-size: 14px; line-height: 150%; color: red; }*/

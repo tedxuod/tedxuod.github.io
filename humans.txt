@@ -13,4 +13,4 @@
 # TECHNOLOGY COLOPHON
 
     CSS3, HTML5
-    Github Pages, Jekyll, Bootstrap, jQuery
+    Github, Jekyll, Bootstrap, jQuery, jQuery GRIDDER, Font-Awesome, Google Fonts, Less
