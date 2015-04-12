@@ -648,7 +648,7 @@ div.window label:hover {
 
 /*#sue + #mathias + #tim + */
 #speakers label:after {
-    content: "Click for full Biography"
+    content: "Click here for more details"
 }
 
 #speakers input:checked + label:after {
