@@ -173,6 +173,10 @@ a:focus {
     background-color: rgba(218, 41, 28, 0.90);
 }
 
+#programme{
+    color: rgba(242, 14, 11, 1);
+}
+
 @media (min-width: 767px) {
     .navbar {
         padding: 20px 0;
